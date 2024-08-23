@@ -24,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             children: [
               const SizedBox(
-                height: 10,
+                height: 80,
               ),
               Padding(
                 padding: const EdgeInsets.all(20),
@@ -36,7 +36,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: TextField(
                   obscureText: passToggle ? true : false,
                   decoration: InputDecoration(
-                    border: const OutlineInputBorder(),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(25),
+                ),
                     label: const Text('Password'),
                     prefixIcon: const Icon(Icons.person),
                     suffixIcon: InkWell(
@@ -66,11 +68,10 @@ class _LoginScreenState extends State<LoginScreen> {
                     title: 'Login',
                     onTap: () {
                       // Navigator.pushNamed(context, 'homeScreen');
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const NavBarRoots(),
-                        ),
+                      Navigator.pushReplacement(context,
+                          MaterialPageRoute(
+                        builder: (context) => const NavBarRoots(),
+                      ),
                       );
                     },
                   ),

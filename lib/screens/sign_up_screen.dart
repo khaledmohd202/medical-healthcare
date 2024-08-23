@@ -24,7 +24,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             children: [
               // LoginScreen(),
               const SizedBox(
-                height: 10,
+                height: 50,
               ),
               Padding(
                 padding: const EdgeInsets.all(10),
@@ -47,7 +47,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 child: TextField(
                   obscureText: passToggle ? true : false,
                   decoration: InputDecoration(
-                    border: const OutlineInputBorder(),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(25),
+                    ),
                     label: const Text('Password'),
                     prefixIcon: const Icon(Icons.person),
                     suffixIcon: InkWell(

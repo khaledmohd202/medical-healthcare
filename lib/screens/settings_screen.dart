@@ -18,7 +18,7 @@ class SettingsScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 15),
+            const SizedBox(height: 40),
             ListTile(
               leading: InkWell(
                 onTap: () {},
@@ -38,7 +38,7 @@ class SettingsScreen extends StatelessWidget {
               subtitle: const Text('Doctor Profile'),
             ),
             const Divider(height: 20, thickness: 1, indent: 30, endIndent: 30),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             CustomListTileWidget(
               title: const Text(
                 'Doctor Profile',
@@ -57,7 +57,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             CustomListTileWidget(
               leading: Container(
                 padding: const EdgeInsets.all(10),
@@ -76,7 +76,7 @@ class SettingsScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             CustomListTileWidget(
               leading: Container(
                 padding: const EdgeInsets.all(10),
@@ -95,7 +95,7 @@ class SettingsScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             CustomListTileWidget(
               leading: Container(
                 padding: const EdgeInsets.all(10),
@@ -114,7 +114,7 @@ class SettingsScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             CustomListTileWidget(
               leading: Container(
                 padding: const EdgeInsets.all(10),
@@ -133,7 +133,7 @@ class SettingsScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             CustomListTileWidget(
               leading: Container(
                 padding: const EdgeInsets.all(10),
@@ -152,7 +152,7 @@ class SettingsScreen extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
               ),
             ),
-            const Divider(height: 20, thickness: 1, indent: 30, endIndent: 30),
+            // const Divider(height: 20, thickness: 1, indent: 30, endIndent: 30),
           ],
         ),
       ),

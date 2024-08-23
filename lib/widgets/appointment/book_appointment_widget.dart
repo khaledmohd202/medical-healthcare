@@ -10,7 +10,7 @@ class BookAppointmentWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(15),
-      height: 120,
+      height: 140,
       decoration: const BoxDecoration(
         // borderRadius: BorderRadius.circular(20),
         color: Colors.white,
@@ -47,7 +47,7 @@ class BookAppointmentWidget extends StatelessWidget {
             child: Container(
               alignment: Alignment.center,
               width: MediaQuery.of(context).size.width,
-              height: 55,
+              height: 65,
               padding: const EdgeInsets.symmetric(vertical: 18),
               decoration: BoxDecoration(
                 color: kPrimaryColor,
